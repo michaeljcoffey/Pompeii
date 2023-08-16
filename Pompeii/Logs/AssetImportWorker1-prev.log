@@ -15,7 +15,11 @@ E:/Repos/Pompeii/Pompeii
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
+<<<<<<< HEAD
+64745
+=======
 55064
+>>>>>>> parent of 555fab71 (street liners + forum west/south improvements)
 Successfully changed project path to: E:/Repos/Pompeii/Pompeii
 E:/Repos/Pompeii/Pompeii
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +53,19 @@ E:/Repos/Pompeii/Pompeii
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
+Player connection [16012] Host "[IP] 192.168.0.13 [Port] 0 [Flags] 2 [Guid] 2607894435 [EditorId] 2607894435 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-V7BMI53) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [16012] Host "[IP] 192.168.0.13 [Port] 0 [Flags] 2 [Guid] 2607894435 [EditorId] 2607894435 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-V7BMI53) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 6.36 ms, found 3 plugins.
+=======
 Player connection [5240] Host "[IP] 192.168.0.13 [Port] 0 [Flags] 2 [Guid] 3058160160 [EditorId] 3058160160 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-V7BMI53) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [5240] Host "[IP] 192.168.0.13 [Port] 0 [Flags] 2 [Guid] 3058160160 [EditorId] 3058160160 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-V7BMI53) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 Refreshing native plugins compatible for Editor in 6.25 ms, found 3 plugins.
+>>>>>>> parent of 555fab71 (street liners + forum west/south improvements)
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.1f1 (f18e0c1b5784)
 [Subsystems] Discovering subsystems at path E:/UnityHub/2022.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -69,11 +81,25 @@ Initialize mono
 Mono path[0] = 'E:/UnityHub/2022.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'E:/UnityHub/2022.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/UnityHub/2022.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
+=======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+>>>>>>> parent of 555fab71 (street liners + forum west/south improvements)
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/UnityHub/2022.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/UnityHub/2022.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< HEAD
+Registered in 0.005416 seconds.
+- Loaded All Assemblies, in  0.375 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.279 seconds
+Domain Reload Profiling: 654ms
+	BeginReloadAssembly (94ms)
+=======
 Registered in 0.005767 seconds.
 - Loaded All Assemblies, in  0.362 seconds
 Native extension for WindowsStandalone target not found
@@ -82,12 +108,36 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.295 seconds
 Domain Reload Profiling: 656ms
 	BeginReloadAssembly (90ms)
+>>>>>>> parent of 555fab71 (street liners + forum west/south improvements)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (37ms)
+<<<<<<< HEAD
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (175ms)
+		LoadAssemblies (93ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (172ms)
+			TypeCache.Refresh (171ms)
+				TypeCache.ScanAssembly (157ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (280ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (214ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (147ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+=======
 	RebuildNativeTypeToScriptingClass (12ms)
 	initialDomainReloadingComplete (55ms)
 	LoadAllAssembliesAndSetupDomain (167ms)
@@ -109,6 +159,7 @@ Domain Reload Profiling: 656ms
 			BeforeProcessingInitializeOnLoad (2ms)
 			ProcessInitializeOnLoadAttributes (157ms)
 			ProcessInitializeOnLoadMethodAttributes (58ms)
+>>>>>>> parent of 555fab71 (street liners + forum west/south improvements)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,6 +169,543 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\Repos\Pompeii\Pompeii\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Repos\Pompeii\Pompeii\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+<<<<<<< HEAD
+- Loaded All Assemblies, in  0.808 seconds
+Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.598 seconds
+Domain Reload Profiling: 1406ms
+	BeginReloadAssembly (144ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (570ms)
+		LoadAssemblies (269ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (372ms)
+			TypeCache.Refresh (352ms)
+				TypeCache.ScanAssembly (336ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (599ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (421ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (324ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3238 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (1.3 MB). Loaded Objects now: 3694.
+Memory consumption went from 138.1 MB to 136.9 MB.
+Total: 4.043200 ms (FindLiveObjects: 0.272700 ms CreateObjectMapping: 0.245700 ms MarkObjects: 3.167900 ms  DeleteObjects: 0.355800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 135399.332977 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-44-36_[Finished] I.VII_Template     Wall Only.asset
+  artifactKey: Guid(1fe1a9e31880bf94c8c7044e60d1242f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-44-36_[Finished] I.VII_Template     Wall Only.asset using Guid(1fe1a9e31880bf94c8c7044e60d1242f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d719cfcb8db227513d37de015033d4') in 0.015173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 5/8-9-2023 10-57-12_[Finished] VI.XIV_Template     Wall Only-backup.asset
+  artifactKey: Guid(c4726bb9fa98b8d40b8f01bbacba39ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 5/8-9-2023 10-57-12_[Finished] VI.XIV_Template     Wall Only-backup.asset using Guid(c4726bb9fa98b8d40b8f01bbacba39ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe688cb12c6c3ce1480c650d61f8bb4d') in 0.001591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Auto Fence Builder/AFWB_Textures/WoodBeamsHorizontal_C.png
+  artifactKey: Guid(078f8c54bd8694349b3d1cad0382cec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/AFWB_Textures/WoodBeamsHorizontal_C.png using Guid(078f8c54bd8694349b3d1cad0382cec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b1cf877a203d3e3f8bd5ccefebfad7') in 0.055476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-27-41_[Finished] VIII.V_Template     Wall Only.asset
+  artifactKey: Guid(dd2413601c807b94387a48330c1f6935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-27-41_[Finished] VIII.V_Template     Wall Only.asset using Guid(dd2413601c807b94387a48330c1f6935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50eacf5fd5ccadcba5a1038edcb7d062') in 0.002274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-39-08_[Finished] I.II_Template     Wall Only.asset
+  artifactKey: Guid(a884a49420e953a45b328795edd4a844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-39-08_[Finished] I.II_Template     Wall Only.asset using Guid(a884a49420e953a45b328795edd4a844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c88f0e1a1916ce8dc89b5a285230b7c') in 0.001617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Auto Fence Builder/AFWB_Textures/Horizon2_C.png
+  artifactKey: Guid(19ee245d399f1438a9a174cdc62d9f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/AFWB_Textures/Horizon2_C.png using Guid(19ee245d399f1438a9a174cdc62d9f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c43936ecbb9f815aee3173bb7c36be') in 0.009435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 6/8-9-2023 10-59-07_[Finished] VI.I_Template     Wall Only-backup.asset
+  artifactKey: Guid(29c29ca218ad5904db93a86f848d32ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 6/8-9-2023 10-59-07_[Finished] VI.I_Template     Wall Only-backup.asset using Guid(29c29ca218ad5904db93a86f848d32ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3a118515ecf20a4e5f1631034279c9') in 0.002202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-43-38_[Finished] I.X_Template     Wall Only.asset
+  artifactKey: Guid(9e4c7b836d9408a40a4bc0098ebcc7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-43-38_[Finished] I.X_Template     Wall Only.asset using Guid(9e4c7b836d9408a40a4bc0098ebcc7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26131e5a52a36aacf2f47bb07794308c') in 0.002633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Auto Fence Builder/AFWB_Textures/Horizon2_N.png
+  artifactKey: Guid(5296ee870d1554c1ba97ff193437a8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/AFWB_Textures/Horizon2_N.png using Guid(5296ee870d1554c1ba97ff193437a8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2929d9a6d1f4839de514890c3d480594') in 0.046029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Auto Fence Builder/AFWB_Textures/WoodBeamsHorizontal1_Edges_N.png
+  artifactKey: Guid(39974ea0a1a0c483aab876bec4bdcbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/AFWB_Textures/WoodBeamsHorizontal1_Edges_N.png using Guid(39974ea0a1a0c483aab876bec4bdcbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6428a0ff730448d095a8f898cd98ef') in 0.030949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-10-33_[Finished] VI.IX_Template     Wall Only.asset
+  artifactKey: Guid(c6b7874d55070f84eb29cee26ae3f210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-10-33_[Finished] VI.IX_Template     Wall Only.asset using Guid(c6b7874d55070f84eb29cee26ae3f210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1e22103306868e436e240f24346e23') in 0.002145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-12-28_[Finished] VI.XV_Template     Wall Only.asset
+  artifactKey: Guid(a2c09f8c01567db4293f14dd6360f58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-12-28_[Finished] VI.XV_Template     Wall Only.asset using Guid(a2c09f8c01567db4293f14dd6360f58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd1b951d335a6c31c845022030f3a29') in 0.002346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 10-57-12_[Finished] VI.XIV_Template     Wall Only.asset
+  artifactKey: Guid(edc40269a75bc304a8fc30ae1fe3ab69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 10-57-12_[Finished] VI.XIV_Template     Wall Only.asset using Guid(edc40269a75bc304a8fc30ae1fe3ab69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1288854ba8516f212791da7d2e058092') in 0.002246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 12/8-9-2023 11-06-38_[Finished] VI.VI_Template     Wall Only-backup.asset
+  artifactKey: Guid(ffcfa9d17fb729e4ab728cd9ae72205a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 12/8-9-2023 11-06-38_[Finished] VI.VI_Template     Wall Only-backup.asset using Guid(ffcfa9d17fb729e4ab728cd9ae72205a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b5efe34473965d118fe1867dbbaf1e') in 0.002664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-06-38_[Finished] VI.VI_Template     Wall Only.asset
+  artifactKey: Guid(484c2be1e27620648a20d143796cc9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-06-38_[Finished] VI.VI_Template     Wall Only.asset using Guid(484c2be1e27620648a20d143796cc9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0b1c762d5b2419b0d12023602fff7c') in 0.002069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 10/8-9-2023 11-04-36_[Finished] VI.Va_Template     Wall Only-backup.asset
+  artifactKey: Guid(de9f2df34bd64b84badbed59df037a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 10/8-9-2023 11-04-36_[Finished] VI.Va_Template     Wall Only-backup.asset using Guid(de9f2df34bd64b84badbed59df037a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51371a205a39c5f8f520c787dd434e2e') in 0.001957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 22/8-9-2023 11-25-15_[Finished] VIII.IV_Template     Wall Only-backup.asset
+  artifactKey: Guid(6cbd57d2a6bdcf147b64b7df5607c3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 22/8-9-2023 11-25-15_[Finished] VIII.IV_Template     Wall Only-backup.asset using Guid(6cbd57d2a6bdcf147b64b7df5607c3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928f77f0dc1bff74e3782cfaea860a55') in 0.001876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-45-24_[Finished] I.VIII_Template     Wall Only.asset
+  artifactKey: Guid(572795c5e9800074b90edfe1bce13aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-45-24_[Finished] I.VIII_Template     Wall Only.asset using Guid(572795c5e9800074b90edfe1bce13aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9bb06baaa365e0fc74268063ff3562') in 0.001704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 34/8-9-2023 11-43-38_[Finished] I.X_Template     Wall Only-backup.asset
+  artifactKey: Guid(9930fda55bc637c44b4e2ee60082745d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 34/8-9-2023 11-43-38_[Finished] I.X_Template     Wall Only-backup.asset using Guid(9930fda55bc637c44b4e2ee60082745d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a8a0ef9a129771554de5456d8f4a71') in 0.001720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 11/8-9-2023 11-05-26_[Finished] VI.Vb_Template     Wall Only-backup.asset
+  artifactKey: Guid(a92683470f9840244bf42b7dc592a319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 11/8-9-2023 11-05-26_[Finished] VI.Vb_Template     Wall Only-backup.asset using Guid(a92683470f9840244bf42b7dc592a319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daedcd20318ef06939a9854b8da68c30') in 0.001516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Auto Fence Builder/Presets_AFWB/Wood/Wood Garden Horizontal Boards.asset
+  artifactKey: Guid(0efaf5ce2fbf24ff59b5f54671a3455f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Presets_AFWB/Wood/Wood Garden Horizontal Boards.asset using Guid(0efaf5ce2fbf24ff59b5f54671a3455f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a9940afb64e3990ab33cfee7263492') in 0.002931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 32/8-9-2023 11-41-45_[Finished]  I.IV_Template     Wall Only-backup.asset
+  artifactKey: Guid(7802203a02db3a54fbe8ff5ca2979b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 32/8-9-2023 11-41-45_[Finished]  I.IV_Template     Wall Only-backup.asset using Guid(7802203a02db3a54fbe8ff5ca2979b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6b230b4faba701bf2c09fe69f94a32') in 0.002410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Auto Fence Builder/AFWB_Textures/WoodBeamsHorizontal_Normal_Crazy.png
+  artifactKey: Guid(649bbc26c9f4e422ca075dd306edde37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/AFWB_Textures/WoodBeamsHorizontal_Normal_Crazy.png using Guid(649bbc26c9f4e422ca075dd306edde37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c32f1c786e5656552f64d82035dbe6') in 0.016833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Auto Fence Builder/AFWB_Textures/Horizon2_MS.png
+  artifactKey: Guid(10a9230f99e9346eb9f090f1fd18f9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/AFWB_Textures/Horizon2_MS.png using Guid(10a9230f99e9346eb9f090f1fd18f9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9f8a7d75cbcf2532f450ac1a1b7a3f') in 0.010716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 15/8-9-2023 11-10-33_[Finished] VI.IX_Template     Wall Only-backup.asset
+  artifactKey: Guid(30852302b9aff5941aeb48d6504de40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 15/8-9-2023 11-10-33_[Finished] VI.IX_Template     Wall Only-backup.asset using Guid(30852302b9aff5941aeb48d6504de40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cacfe6cc25d50b3fb880ef790b878d42') in 0.001946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 2/8-9-2023 10-41-21_[Finished] VI-X_Template     Wall Only-backup.asset
+  artifactKey: Guid(50c961ec78d1ab245b843eb85e295623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 2/8-9-2023 10-41-21_[Finished] VI-X_Template     Wall Only-backup.asset using Guid(50c961ec78d1ab245b843eb85e295623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60a07d9f88d7927230c85fa1fde664a') in 0.003863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-42-30_[Finished] I.VI_Template     Wall Only.asset
+  artifactKey: Guid(288465fbc3ea4414d9890c16ca93c031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-42-30_[Finished] I.VI_Template     Wall Only.asset using Guid(288465fbc3ea4414d9890c16ca93c031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500742ba940bb9da459b7acb580c5361') in 0.001588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 7/8-9-2023 11-00-47_[Finished] VI.II_Template     Wall Only-backup.asset
+  artifactKey: Guid(ac3add711ae280a45abb10d04760b22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 7/8-9-2023 11-00-47_[Finished] VI.II_Template     Wall Only-backup.asset using Guid(ac3add711ae280a45abb10d04760b22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7463bf174d58591d80f0a397d5ed0486') in 0.001691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-08-57_[Finished] VI.VII_Template     Wall Only.asset
+  artifactKey: Guid(6e52f9943b25c0f4ca8fc5acf78a0df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-08-57_[Finished] VI.VII_Template     Wall Only.asset using Guid(6e52f9943b25c0f4ca8fc5acf78a0df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806c03d79bee5a7a16e97fe8c60384e0') in 0.002117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Auto Fence Builder/AFWB_Textures/WoodBeamsHorizontalb1_N.png
+  artifactKey: Guid(2a929090deb1346f4bea5a1e3883a34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/AFWB_Textures/WoodBeamsHorizontalb1_N.png using Guid(2a929090deb1346f4bea5a1e3883a34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd65cbb79d5fd1db8dc364f2a5fdeaa') in 0.021739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 13/8-9-2023 11-08-04_[Finished] VI.VII_Template     Wall Only-backup.asset
+  artifactKey: Guid(a87fad6b72d4dbd43960c742bc1ab7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 13/8-9-2023 11-08-04_[Finished] VI.VII_Template     Wall Only-backup.asset using Guid(a87fad6b72d4dbd43960c742bc1ab7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0dc0f87d4b14a577285ca946fc9dc2') in 0.002940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 35/8-9-2023 11-44-36_[Finished] I.VII_Template     Wall Only-backup.asset
+  artifactKey: Guid(ff8da98ef7bc8534e8a0be2070d315d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 35/8-9-2023 11-44-36_[Finished] I.VII_Template     Wall Only-backup.asset using Guid(ff8da98ef7bc8534e8a0be2070d315d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98510272c13a84f80069befca9fccc1a') in 0.002216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 9/8-9-2023 11-02-45_[Finished] VI.IV_Template     Wall Only-backup.asset
+  artifactKey: Guid(52a52f36ea8839f489a5f8d627b2b373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 9/8-9-2023 11-02-45_[Finished] VI.IV_Template     Wall Only-backup.asset using Guid(52a52f36ea8839f489a5f8d627b2b373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b3a1a4e2242e31b7c4c74493b6dd62') in 0.002633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-01-55_[Finished] VI.III_Template     Wall Only.asset
+  artifactKey: Guid(da8a259079eb277489b34921d6e48035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-01-55_[Finished] VI.III_Template     Wall Only.asset using Guid(da8a259079eb277489b34921d6e48035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a09289af46d6cc57dc34d719ac1f22') in 0.002449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-08-04_[Finished] VI.VII_Template     Wall Only.asset
+  artifactKey: Guid(cbd57c866d74c614b8b738749c09e842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-08-04_[Finished] VI.VII_Template     Wall Only.asset using Guid(cbd57c866d74c614b8b738749c09e842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1557004b49552737fae98b59c19b7da') in 0.002067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-29-18_[Finished] VIII.VIb_Template     Wall Only.asset
+  artifactKey: Guid(6147fd168fdaa2446beb55a994d0af35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-29-18_[Finished] VIII.VIb_Template     Wall Only.asset using Guid(6147fd168fdaa2446beb55a994d0af35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edcdcd71c5c07f7061a48a12f843a8a9') in 0.001708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-22-53_[Finished] VII.II_Template     Wall Only.asset
+  artifactKey: Guid(1d3c26fdc592dc742889279e66e6ec75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-22-53_[Finished] VII.II_Template     Wall Only.asset using Guid(1d3c26fdc592dc742889279e66e6ec75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8230bb2ea05539bcc81ea56dbfbea409') in 0.002630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 10-42-48_[Finished] VI.XII_Template     Wall Only.asset
+  artifactKey: Guid(7f6e518adff53fd46bd340202661ed5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 10-42-48_[Finished] VI.XII_Template     Wall Only.asset using Guid(7f6e518adff53fd46bd340202661ed5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b007ec4f16584eb93a8d6846ef179fe1') in 0.002894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-40-19_[Finished] I.IV_Template     Wall Only.asset
+  artifactKey: Guid(84c56cd267133ee49b15aa4bf4502dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-40-19_[Finished] I.IV_Template     Wall Only.asset using Guid(84c56cd267133ee49b15aa4bf4502dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5369c5dbd8d31e98f9bb762e0bedb2b') in 0.002000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 25/8-9-2023 11-29-18_[Finished] VIII.VIb_Template     Wall Only-backup.asset
+  artifactKey: Guid(f917871bf08e1394fad5a86cd82feca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 25/8-9-2023 11-29-18_[Finished] VIII.VIb_Template     Wall Only-backup.asset using Guid(f917871bf08e1394fad5a86cd82feca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c986d6c2e0ff765eae355b20ab13a63') in 0.002755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 4/8-9-2023 10-54-55_[Finished] VI.XII_Template     Wall Only-backup.asset
+  artifactKey: Guid(9aeda9c676d5746499b0f702567cac99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 4/8-9-2023 10-54-55_[Finished] VI.XII_Template     Wall Only-backup.asset using Guid(9aeda9c676d5746499b0f702567cac99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c6c07570dd7b3852f8e903e56a64de') in 0.003259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-15-52_[Finished] VI.XVII_Template     Wall Only.asset
+  artifactKey: Guid(2e58d42160656d94d9048f4af506dec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-15-52_[Finished] VI.XVII_Template     Wall Only.asset using Guid(2e58d42160656d94d9048f4af506dec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2861f2be67aff974505acb0129dad825') in 0.001892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-38-24_[Finished] I.I_Template     Wall Only.asset
+  artifactKey: Guid(bab46f82d29045d4697814622f643e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-38-24_[Finished] I.I_Template     Wall Only.asset using Guid(bab46f82d29045d4697814622f643e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3327f4de6dfbcd355dc84f77455a47a9') in 0.001633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-30-25_[Finished] VIII.VIIa_Template     Wall Only.asset
+  artifactKey: Guid(d02c8d0a6d1124f4b8081e4945bb2c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-30-25_[Finished] VIII.VIIa_Template     Wall Only.asset using Guid(d02c8d0a6d1124f4b8081e4945bb2c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e86443972293af7d6f2fbb0e306ee5a') in 0.001586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 19/8-9-2023 11-15-52_[Finished] VI.XVII_Template     Wall Only-backup.asset
+  artifactKey: Guid(ad702c9690a32444aa438fa0fbbe0905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 19/8-9-2023 11-15-52_[Finished] VI.XVII_Template     Wall Only-backup.asset using Guid(ad702c9690a32444aa438fa0fbbe0905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da0222ff4a476821945b7606f951fe7') in 0.001880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-14-42_[Finished] VI.XVI_Template     Wall Only.asset
+  artifactKey: Guid(4e21590cd9a7ae1469ea2562b8a13c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-14-42_[Finished] VI.XVI_Template     Wall Only.asset using Guid(4e21590cd9a7ae1469ea2562b8a13c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22593a8f76637d4e403d21799e85300e') in 0.003361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 1/8-4-2023 8-38-54_Finished By Editing Session_Template     Wall Only-backup.asset
+  artifactKey: Guid(d00e1782d44e85c488367ea7a345c64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 1/8-4-2023 8-38-54_Finished By Editing Session_Template     Wall Only-backup.asset using Guid(d00e1782d44e85c488367ea7a345c64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3fc76383df86c40abdd063262aafad') in 0.002171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 18/8-9-2023 11-14-42_[Finished] VI.XVI_Template     Wall Only-backup.asset
+  artifactKey: Guid(f32497651ff8f634dbbc13a1de036b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 18/8-9-2023 11-14-42_[Finished] VI.XVI_Template     Wall Only-backup.asset using Guid(f32497651ff8f634dbbc13a1de036b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef4f1de78cf9c131df4a88a4bc76d20') in 0.001741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 27/8-9-2023 11-31-23_[Finished] VIII.VIIb_Template     Wall Only-backup.asset
+  artifactKey: Guid(03b53371006828c47acfe0226a51b73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 27/8-9-2023 11-31-23_[Finished] VIII.VIIb_Template     Wall Only-backup.asset using Guid(03b53371006828c47acfe0226a51b73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2adb65b4722dba2d050df0443dd6fc') in 0.001982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Auto Fence Builder/AFWB_Textures/WoodBeamsHorizontal_S.png
+  artifactKey: Guid(d1b3f732f500041f3ac982b7da668945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/AFWB_Textures/WoodBeamsHorizontal_S.png using Guid(d1b3f732f500041f3ac982b7da668945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504dd8084ab2e4824d76d4df4c4d6a9a') in 0.007202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 23/8-9-2023 11-27-41_[Finished] VIII.V_Template     Wall Only-backup.asset
+  artifactKey: Guid(53b0669a785fdbf429b88835085d5014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 23/8-9-2023 11-27-41_[Finished] VIII.V_Template     Wall Only-backup.asset using Guid(53b0669a785fdbf429b88835085d5014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbf5877431473a08664d895e9a3a405') in 0.001853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 24/8-9-2023 11-28-23_[Finished] VIII.VIa_Template     Wall Only-backup.asset
+  artifactKey: Guid(22c56924687b8f54e94f1a9cbf3dd8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsAFWB_Backups 24/8-9-2023 11-28-23_[Finished] VIII.VIa_Template     Wall Only-backup.asset using Guid(22c56924687b8f54e94f1a9cbf3dd8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07485b810857f682a89fff17ccbaaa3') in 0.001509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-24-09_[Finished] VIII.III_Template     Wall Only.asset
+  artifactKey: Guid(47955ccd32bd01848ba4510bd495e51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Auto Fence Builder/Editor/PresetsForFinishedFences/Basic Templates/8-9-2023 11-24-09_[Finished] VIII.III_Template     Wall Only.asset using Guid(47955ccd32bd01848ba4510bd495e51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c6de1765519c40f4c53d59e036808f') in 0.002912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Repos\Pompeii\Pompeii\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Repos\Pompeii\Pompeii\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.665 seconds
+Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.698 seconds
+Domain Reload Profiling: 1363ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (453ms)
+		LoadAssemblies (234ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (284ms)
+			TypeCache.Refresh (280ms)
+				TypeCache.ScanAssembly (268ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (699ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (314ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (225ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3203 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.3 MB). Loaded Objects now: 3703.
+Memory consumption went from 133.9 MB to 132.6 MB.
+Total: 2.972100 ms (FindLiveObjects: 0.296900 ms CreateObjectMapping: 0.240400 ms MarkObjects: 2.212700 ms  DeleteObjects: 0.221100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+=======
 - Loaded All Assemblies, in  0.773 seconds
 Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
@@ -165,6 +753,7 @@ Unloading 43 unused Assets / (1.3 MB). Loaded Objects now: 3654.
 Memory consumption went from 129.7 MB to 128.4 MB.
 Total: 3.083200 ms (FindLiveObjects: 0.296200 ms CreateObjectMapping: 0.237100 ms MarkObjects: 2.276000 ms  DeleteObjects: 0.273100 ms)
 
+>>>>>>> parent of 555fab71 (street liners + forum west/south improvements)
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
@@ -177,6 +766,8 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+<<<<<<< HEAD
+=======
 ========================================================================
 Received Import Request.
   Time since last request: 1375312.294447 seconds.
@@ -185,3 +776,4 @@ Received Import Request.
 Start importing Assets/Prefabs/Officina.prefab using Guid(5f125b3ddd83cf948a5b7ddbcf9cbc4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d565140af742cb79ac4df7371a48be') in 0.098974 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 90
+>>>>>>> parent of 555fab71 (street liners + forum west/south improvements)
