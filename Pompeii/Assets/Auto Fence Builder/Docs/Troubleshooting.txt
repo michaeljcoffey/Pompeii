@@ -1,0 +1,8 @@
+﻿
+Ensure Auto Fence Builder is selected in the Hierarchy when trying to build
+Ensure Unity Gizmos have not been disabled in the menu of the Scene window
+
+To use with the HD Render Pipeline, please delete the following two folders 
+Auto Fence Builder/AFWB_Materials
+Auto Fence Builder/FencePrefabs_AFWB
+Then import the 'AFWB HDRP Prefabs & Materials' unitypackage

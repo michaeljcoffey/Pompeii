@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b46a5fcaa42654ddfaaa3f4f2a3fbcb3, type: 3}
+  m_Name: AutoFenceFonts
+  m_EditorClassIdentifier: 
+  infoStyleSmallSize: 13
+  greyStyleSize: 13
+  infoStyleSmallColor: {r: 0.2775454, g: 0.79762715, b: 0.9339623, a: 1}
+  greyStyleColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
